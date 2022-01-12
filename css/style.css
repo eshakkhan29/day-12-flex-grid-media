@@ -39,11 +39,13 @@ main{
 
 /* header area and navigation css */
 
-.header-area{
+.header-area {
+    height: 94px;
     background: #562EFF;
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+    align-items: center;
 }
 .main-header{
     display: flex;
@@ -183,7 +185,7 @@ line-height: 23px;
 /* footer area css */
 
 .fooret-area{
-    height: 123px;
+    height: 94px;
     background: #562EFF;
     color: white;
     display: flex;
@@ -192,7 +194,7 @@ line-height: 23px;
     align-items: center;
 }
 .fooret-area h1{
-    font-size: 24px;
+    font-size: 20px;
 }
 .fooret-area p{
     font-size: 16px;
