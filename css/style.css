@@ -205,46 +205,8 @@ line-height: 23px;
 
 /* tab */
 
-@media only screen and (min-width:689px) and (max-width:991px) {
-    .navigation {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 /* mobile */
 
 @media only screen and (max-width:687px) {
-    .main-header{
-        flex-direction: column;
-    }
-    .top-players {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-row-gap: 30px;
-        margin-bottom: 30px;
-        justify-items: center;
-        align-items: center;
-    }
-    .top-blogs {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px;
-        justify-items: center;
-        align-items: center;
-    }
-    .courses {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-column-gap: 20px;
-        justify-items: center;
-        align-items: center;
-    }
-    .fooret-area h1 {
-        font-size: 14px;
-    }
-    .fooret-area p {
-        font-size: 10px;
-    }
-
+    
 }
